@@ -57,7 +57,7 @@ function draw() {
     text("Press Space to shoot, and H for help", width/2,80+25);
   }
 
-  if(destroyedCounter==2){
+  if(destroyedCounter==10){
     gameWin();
   }
 
